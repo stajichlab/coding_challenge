@@ -1,0 +1,11 @@
+Assembly statistics for: CLC_3_cluster_DBSCAN_round2_26.fna
+   CONTIG COUNT  =  137
+   TOTAL LENGTH  =  1643464
+            MIN  =  9066
+            MAX  =  24541
+         MEDIAN  =  10909
+           MEAN  =  11996.09
+            L50  =  56
+            N50  =  11620
+            L90  =  120
+            N90  =  9355

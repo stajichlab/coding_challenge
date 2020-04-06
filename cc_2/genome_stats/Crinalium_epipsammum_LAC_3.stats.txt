@@ -1,0 +1,11 @@
+Assembly statistics for: Crinalium_epipsammum_LAC_3.fna
+   CONTIG COUNT  =  44
+   TOTAL LENGTH  =  337116
+            MIN  =  5048
+            MAX  =  18350
+         MEDIAN  =  6690
+           MEAN  =  7661.73
+            L50  =  17
+            N50  =  7615
+            L90  =  38
+            N90  =  5593

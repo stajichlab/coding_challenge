@@ -1,0 +1,11 @@
+Assembly statistics for: Iphinoe_sp._HA4291-MV1.fna
+   CONTIG COUNT  =  208
+   TOTAL LENGTH  =  7772900
+            MIN  =  3057
+            MAX  =  306840
+         MEDIAN  =  20862
+           MEAN  =  37369.71
+            L50  =  34
+            N50  =  68170
+            L90  =  114
+            N90  =  18186

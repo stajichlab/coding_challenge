@@ -1,0 +1,11 @@
+Assembly statistics for: Scytonema_hyalinum_WJT4-NPBG1.fna
+   CONTIG COUNT  =  215
+   TOTAL LENGTH  =  8789178
+            MIN  =  3029
+            MAX  =  185275
+         MEDIAN  =  29455
+           MEAN  =  40879.90
+            L50  =  46
+            N50  =  64035
+            L90  =  138
+            N90  =  21477

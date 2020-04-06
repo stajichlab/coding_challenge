@@ -1,0 +1,11 @@
+Assembly statistics for: Nostoc_flagelliforme_CLC_1.fna
+   CONTIG COUNT  =  608
+   TOTAL LENGTH  =  7513733
+            MIN  =  5002
+            MAX  =  122038
+         MEDIAN  =  9223
+           MEAN  =  12358.11
+            L50  =  153
+            N50  =  14393
+            L90  =  474
+            N90  =  6221

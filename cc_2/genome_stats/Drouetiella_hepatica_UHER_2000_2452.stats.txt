@@ -1,0 +1,11 @@
+Assembly statistics for: Drouetiella_hepatica_UHER_2000_2452.fna
+   CONTIG COUNT  =  115
+   TOTAL LENGTH  =  6571455
+            MIN  =  3160
+            MAX  =  486465
+         MEDIAN  =  26032
+           MEAN  =  57143.09
+            L50  =  15
+            N50  =  126314
+            L90  =  59
+            N90  =  25277

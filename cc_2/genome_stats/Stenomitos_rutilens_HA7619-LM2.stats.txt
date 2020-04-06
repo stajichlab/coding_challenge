@@ -1,0 +1,11 @@
+Assembly statistics for: Stenomitos_rutilens_HA7619-LM2.fna
+   CONTIG COUNT  =  159
+   TOTAL LENGTH  =  7544729
+            MIN  =  3018
+            MAX  =  467546
+         MEDIAN  =  27136
+           MEAN  =  47451.13
+            L50  =  25
+            N50  =  89838
+            L90  =  89
+            N90  =  23431

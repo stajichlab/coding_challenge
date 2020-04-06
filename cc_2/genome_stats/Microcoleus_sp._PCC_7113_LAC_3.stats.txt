@@ -1,0 +1,11 @@
+Assembly statistics for: Microcoleus_sp._PCC_7113_LAC_3.fna
+   CONTIG COUNT  =  1116
+   TOTAL LENGTH  =  13939604
+            MIN  =  5000
+            MAX  =  87095
+         MEDIAN  =  9423
+           MEAN  =  12490.68
+            L50  =  284
+            N50  =  14788
+            L90  =  868
+            N90  =  6340

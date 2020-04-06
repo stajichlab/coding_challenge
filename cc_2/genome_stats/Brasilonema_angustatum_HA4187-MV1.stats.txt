@@ -1,0 +1,11 @@
+Assembly statistics for: Brasilonema_angustatum_HA4187-MV1.fna
+   CONTIG COUNT  =  119
+   TOTAL LENGTH  =  8624711
+            MIN  =  3092
+            MAX  =  396052
+         MEDIAN  =  41916
+           MEAN  =  72476.56
+            L50  =  21
+            N50  =  142662
+            L90  =  66
+            N90  =  34709

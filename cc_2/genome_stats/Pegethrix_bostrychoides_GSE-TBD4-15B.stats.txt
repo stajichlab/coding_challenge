@@ -1,0 +1,11 @@
+Assembly statistics for: Pegethrix_bostrychoides_GSE-TBD4-15B.fna
+   CONTIG COUNT  =  101
+   TOTAL LENGTH  =  5181953
+            MIN  =  3103
+            MAX  =  264053
+         MEDIAN  =  31659
+           MEAN  =  51306.47
+            L50  =  18
+            N50  =  93547
+            L90  =  54
+            N90  =  28820

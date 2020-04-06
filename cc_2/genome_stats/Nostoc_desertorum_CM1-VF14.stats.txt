@@ -1,0 +1,11 @@
+Assembly statistics for: Nostoc_desertorum_CM1-VF14.fna
+   CONTIG COUNT  =  173
+   TOTAL LENGTH  =  8945065
+            MIN  =  3146
+            MAX  =  392607
+         MEDIAN  =  25733
+           MEAN  =  51705.58
+            L50  =  25
+            N50  =  109475
+            L90  =  90
+            N90  =  24471

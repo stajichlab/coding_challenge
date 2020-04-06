@@ -1,0 +1,11 @@
+Assembly statistics for: Oscillatoriales_cyanobacterium_LAC_3.fna
+   CONTIG COUNT  =  1287
+   TOTAL LENGTH  =  9598612
+            MIN  =  5001
+            MAX  =  194977
+         MEDIAN  =  6390
+           MEAN  =  7458.13
+            L50  =  465
+            N50  =  7153
+            L90  =  1100
+            N90  =  5267

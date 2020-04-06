@@ -1,0 +1,11 @@
+Assembly statistics for: Plectolynbya_sp._WJT66-NPBG17.fna
+   CONTIG COUNT  =  136
+   TOTAL LENGTH  =  6309278
+            MIN  =  3082
+            MAX  =  558183
+         MEDIAN  =  17596
+           MEAN  =  46391.75
+            L50  =  13
+            N50  =  96763
+            L90  =  65
+            N90  =  18507

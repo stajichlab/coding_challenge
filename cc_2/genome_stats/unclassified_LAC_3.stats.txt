@@ -1,0 +1,11 @@
+Assembly statistics for: unclassified_LAC_3.fna
+   CONTIG COUNT  =  5757
+   TOTAL LENGTH  =  54729003
+            MIN  =  5000
+            MAX  =  436860
+         MEDIAN  =  6983
+           MEAN  =  9506.51
+            L50  =  1558
+            N50  =  9510
+            L90  =  4712
+            N90  =  5501

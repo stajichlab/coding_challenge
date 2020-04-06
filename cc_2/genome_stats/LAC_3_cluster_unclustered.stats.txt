@@ -1,0 +1,11 @@
+Assembly statistics for: LAC_3_cluster_unclustered.fna
+   CONTIG COUNT  =  25116
+   TOTAL LENGTH  =  149745932
+            MIN  =  3000
+            MAX  =  828364
+         MEDIAN  =  4166
+           MEAN  =  5962.17
+            L50  =  6145
+            N50  =  5850
+            L90  =  20362
+            N90  =  3315

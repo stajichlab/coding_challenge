@@ -1,0 +1,11 @@
+Assembly statistics for: CLC_2_cluster_unclustered.fna
+   CONTIG COUNT  =  5697
+   TOTAL LENGTH  =  45516571
+            MIN  =  5000
+            MAX  =  103373
+         MEDIAN  =  6507
+           MEAN  =  7989.57
+            L50  =  1895
+            N50  =  7580
+            L90  =  4816
+            N90  =  5347

@@ -1,0 +1,11 @@
+Assembly statistics for: LAC_1_cluster_DBSCAN_round1312_0.fna
+   CONTIG COUNT  =  101
+   TOTAL LENGTH  =  694170
+            MIN  =  3050
+            MAX  =  22610
+         MEDIAN  =  5249
+           MEAN  =  6872.97
+            L50  =  27
+            N50  =  7672
+            L90  =  81
+            N90  =  3555

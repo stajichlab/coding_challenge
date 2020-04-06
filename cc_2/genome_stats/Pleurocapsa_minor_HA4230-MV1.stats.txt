@@ -1,0 +1,11 @@
+Assembly statistics for: Pleurocapsa_minor_HA4230-MV1.fna
+   CONTIG COUNT  =  38
+   TOTAL LENGTH  =  5645273
+            MIN  =  3463
+            MAX  =  602790
+         MEDIAN  =  93282
+           MEAN  =  148559.82
+            L50  =  7
+            N50  =  327162
+            L90  =  21
+            N90  =  68584

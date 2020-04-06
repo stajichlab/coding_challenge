@@ -1,0 +1,11 @@
+Assembly statistics for: Scytolyngbya_sp._HA4215-MV1.fna
+   CONTIG COUNT  =  38
+   TOTAL LENGTH  =  6637410
+            MIN  =  4157
+            MAX  =  830298
+         MEDIAN  =  71973
+           MEAN  =  174668.68
+            L50  =  6
+            N50  =  395407
+            L90  =  17
+            N90  =  110687

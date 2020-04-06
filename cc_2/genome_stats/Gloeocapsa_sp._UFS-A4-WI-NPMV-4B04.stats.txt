@@ -1,0 +1,11 @@
+Assembly statistics for: Gloeocapsa_sp._UFS-A4-WI-NPMV-4B04.fna
+   CONTIG COUNT  =  575
+   TOTAL LENGTH  =  7153949
+            MIN  =  3003
+            MAX  =  99039
+         MEDIAN  =  8074
+           MEAN  =  12441.65
+            L50  =  111
+            N50  =  18321
+            L90  =  400
+            N90  =  5360

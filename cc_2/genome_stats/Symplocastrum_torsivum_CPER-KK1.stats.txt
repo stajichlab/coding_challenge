@@ -1,0 +1,11 @@
+Assembly statistics for: Symplocastrum_torsivum_CPER-KK1.fna
+   CONTIG COUNT  =  124
+   TOTAL LENGTH  =  7916040
+            MIN  =  3730
+            MAX  =  293582
+         MEDIAN  =  48625
+           MEAN  =  63839.03
+            L50  =  22
+            N50  =  115402
+            L90  =  75
+            N90  =  33862

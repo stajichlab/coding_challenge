@@ -1,0 +1,11 @@
+Assembly statistics for: Hassallia_sp._WJT32-NPBG1.fna
+   CONTIG COUNT  =  253
+   TOTAL LENGTH  =  7494212
+            MIN  =  3030
+            MAX  =  223354
+         MEDIAN  =  17348
+           MEAN  =  29621.39
+            L50  =  41
+            N50  =  50639
+            L90  =  149
+            N90  =  13587

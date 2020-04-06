@@ -1,0 +1,11 @@
+Assembly statistics for: Calothrix_sp._FI2-JRJ7.fna
+   CONTIG COUNT  =  107
+   TOTAL LENGTH  =  8769216
+            MIN  =  4060
+            MAX  =  624595
+         MEDIAN  =  54312
+           MEAN  =  81955.29
+            L50  =  17
+            N50  =  154571
+            L90  =  58
+            N90  =  43761

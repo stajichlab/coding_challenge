@@ -1,0 +1,11 @@
+Assembly statistics for: Aetokthonos_hydrillicola_B3-Florida.fna
+   CONTIG COUNT  =  115
+   TOTAL LENGTH  =  9699671
+            MIN  =  3098
+            MAX  =  631503
+         MEDIAN  =  44005
+           MEAN  =  84344.97
+            L50  =  18
+            N50  =  164048
+            L90  =  59
+            N90  =  42492
