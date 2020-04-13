@@ -3,6 +3,7 @@
 #Python
 
 import glob
+import sys
 
 
 print("SampleID\tCONTIG COUNT\tTOTAL LENGTH\tMIN\tMAX\tMEDIAN\tMEAN\tL50\tN50\tL90\tN90")
