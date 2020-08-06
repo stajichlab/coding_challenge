@@ -124,7 +124,7 @@ done
 
 
 # plotting in R
-
+plot using `ying_plot.R` R script
 
 
 
