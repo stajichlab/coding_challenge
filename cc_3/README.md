@@ -8,46 +8,96 @@ Question: How do you make this more efficient?
 
 Goal: 
 1. For each coordinate defined in the bedfile
-2. Get the data that fall within the coordinate from each of the tables
-3. For each data for each table, calculate
-4. How many total C's
-5. How many methylated C's
-6. What is the % of methylated C's 
-7. How many total CG
-8. How many methylated C's
-9. What is the % of methylated C's 
-10. How many total CHG
-11. How many methylated C's
-12.What is the % of methylated C's 
-13.How many total CHH
-14. Print output in text format, tab delimited where the columns look like this
+2. Expand the coordinate to a particular window (for example 100 bp (which is 50 bp on each side)), try to make this amenable to change
+3. Get the data that fall within the coordinate from each of the tables
+4. For each data for each table, calculate
+5. How many total C's
+6. How many methylated C's
+7. What is the % of methylated C's 
+8. How many total CG
+9. How many methylated C's
+10. What is the % of methylated C's 
+11. How many total CHG
+12. How many methylated C's
+13.What is the % of methylated C's 
+14.How many total CHH
+15. Print output in text format, tab delimited where the columns look like this
 	
-```
-"$chrom"	
-"$start"	
-"$stop"	
 
-
-# a set of data like this for every table of data
-"$allD"	
-"$methylatedD"	
-"$percentD"	
-"$allCG" 
-"$methylatedCG"	
-"$percentCG" 
-"$allCHG" 
-"$methylatedCHG"	
-"$percentCHG" 
-"$allCHH" 
-"$methylatedCHH"	
-"$percentCHH"
 ```
+Chromosome number
+Start position
+Stop position
+# a set of data like this for every .tsv file
+All C's
+All methylated C's	
+% of methylated C's relative to All C's
+All C's that are categorized as CGs
+All methylated C's that are categorized as CGs
+% of methylated C's relative to C's that are categorized as CGs
+All C's that are categorized as CHGs
+All methylated C's that are categorized as CHGs
+% of methylated C's relative to C's that are categorized as CHGs
+All C's that are categorized as CHHs
+All methylated C's that are categorized as CHHs
+% of methylated C's relative to C's that are categorized as CHHs
+
+#######
+Example headers:
+mPingChr 
+mPingSTART 
+mPingSTOP                              
+mPingDetails   
+A119_allC 
+A119_allmethylated
+A119_._allmethylated 
+A119_CG A119_CGmethylated 
+A119_._CGmethylated 
+A119_CHG 
+A119_CHGmethylated
+A119_._CHGmethylated 
+A119_CHH 
+A119_CHHmethylated 
+A119_._CHHmethylated 
+A123_allC A123_allmethylated
+A123_._allmethylated 
+A123_CG 
+A123_CGmethylated 
+A123_._CGmethylated 
+A123_CHG A123_CHGmethylated
+A123_._CHGmethylated 
+A123_CHH 
+A123_CHHmethylated 
+A123_._CHHmethylated 
+EG4_allC EG4_allmethylated
+EG4_._allmethylated 
+EG4_CG EG4_CGmethylated 
+EG4_._CGmethylated 
+EG4_CHG 
+EG4_CHGmethylated 
+EG4_._CHGmethylated
+EG4_CHH 
+EG4_CHHmethylated 
+EG4_._CHHmethylated 
+HEG4_allC 
+HEG4_allmethylated 
+HEG4_._allmethylated 
+HEG4_CG
+HEG4_CGmethylated 
+HEG4_._CGmethylated 
+HEG4_CHG 
+HEG4_CHGmethylated 
+HEG4_._CHGmethylated 
+HEG4_CHH
+HEG4_CHHmethylated 
+HEG4_._CHHmethylated
+#######
 ----
 Input: 
 - a bedfile with coordinates
 
 
-### Data looks like this
+### Data looks like this- this is a bedfile with sites
 #### Columns are: Chr, start, stop, extra information
 ```
 1       1041521 1041523 Chr1_1041521;Strains=A119_2;GT=homozygous
@@ -59,7 +109,7 @@ Input:
 
 ----
 
-- 4 zipped tables of data
+- 4 zipped tables of data- these are tsv files of 5mC data processed
 ```
 #short_allc_A119.tsv.gz
 #short_allc_A123.tsv.gz
