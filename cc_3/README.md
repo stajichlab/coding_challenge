@@ -92,12 +92,12 @@ Column7: binomial test, 1 = pass, 0 = fail
 Example code is available in script `ying_bash_solution.sh`
 
 # define window from bedfile (this case it's 50 bp from each side)
-############
-awk -v proximal=50 -v distal=50 '{print $1 "\t" $2-proximal "\t" $3+distal "\t" $4}' all_empty_sites.bed > all_empty_sites.50_window.bed
+
+```awk -v proximal=50 -v distal=50 '{print $1 "\t" $2-proximal "\t" $3+distal "\t" $4}' all_empty_sites.bed > all_empty_sites.50_window.bed```
 
 # create individual files for all the coordinates
-############
 
+```
 #!/bin/bash
 #SBATCH -p short
 
@@ -118,9 +118,8 @@ do
  tabix allc_HEG4.tsv.gz Chr${Chrom}:${START}-${END} > "./newbedfiles/HEG4_Chr${Chrom}:${START}-${END}.bed"
  #tabix allc_A119.tsv.gz Chr1:9000-9100 > "./newbedfiles/${Chrom}:${START}-${END}.bed"
 done
-
+```
 # takes each file and subset by CG, CHG, CHH then calculate associated
-############
 
 
 # plotting in R
