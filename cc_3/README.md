@@ -91,14 +91,14 @@ HEG4_._CHGmethylated
 HEG4_CHH
 HEG4_CHHmethylated 
 HEG4_._CHHmethylated
-#######
-----
+```
 Input: 
+-----
 - a bedfile with coordinates
 
 
-### Data looks like this- this is a bedfile with sites
-#### Columns are: Chr, start, stop, extra information
+# Data looks like this- this is a bedfile with sites
+# Columns are: Chr, start, stop, extra information
 ```
 1       1041521 1041523 Chr1_1041521;Strains=A119_2;GT=homozygous
 1       1116559 1116561 Chr1_1116559;Strains=EG4_2;GT=homozygous
@@ -108,13 +108,12 @@ Input:
 ```
 
 ----
-
-- 4 zipped tables of data- these are tsv files of 5mC data processed
+- 4  tables of data- these are tsv files of 5mC data processed
 ```
-#short_allc_A119.tsv.gz
-#short_allc_A123.tsv.gz
-#short_allc_EG4.tsv.gz
-#short_allc_HEG4.tsv.gz
+#short_allc_A119.tsv
+#short_allc_A123.tsv
+#short_allc_EG4.tsv
+#short_allc_HEG4.tsv
 ```
 
 ### longer length files can be found here: /bigdata/wesslerlab/ysun/cc_3
