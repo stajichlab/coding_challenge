@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import csv, re, argparse
+import csv, re, argparse, gzip, os
 
 import tabix
 
@@ -9,11 +9,20 @@ from subprocess import Popen, PIPE
 
 def bgzip(filename):
     """Call bgzip to compress a file."""
-    Popen(['bgzip', '-f', filename])
+    bgzipfile = '%s.gz'%(filename)
+    if os.path.exists()
+    with open(bgzipfile, 'w') as output:
+        Popen(['bgzip', '-f', '-c',filename],stdout=output)
 
 def tabix_index(filename,
         preset="gff", chrom=1, start=4, end=5, skip=0, comment="#"):
     """Call tabix to create an index for a bgzip-compressed file."""
+    chrom = "%d"%(chrom)
+    start = "%d"%(start)
+    end = "%d"%(end)
+    skip = "%d"%(skip)
+    print("index cmd is %s"%(" ".join(['tabix', '-p', preset, '-s', chrom, '-b', start, '-e', end,
+        '-S', skip, '-c', comment])))
     Popen(['tabix', '-p', preset, '-s', chrom, '-b', start, '-e', end,
         '-S', skip, '-c', comment])
 
@@ -57,6 +66,15 @@ for bedline in bedparse:
     bedline[2] = int(bedline[2]) + args.windowsize
     windows.append(bedline)
 
-
 for infile in args.allc:
-    print(infile)
+    bgzip(infile)
+    tabix_index(infile)
+    outfilename = os.path.splitext(infile)[0]+'.summary.tab'
+    if infile == outfilename:
+        print("did not properly setup outputfile ")
+        exit
+    if os.path.exists(outfilename+".tbi"):
+        # running basically: tabix -s 1 -b 2 -e 2
+        tabix_index(infile,"bed",1,2,2)
+    with open(outfilename,"w") as outfh:
+        outfh.write("hello\n")
